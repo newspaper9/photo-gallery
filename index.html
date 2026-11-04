@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen bg-[#f8f8f4] font-sans text-zinc-900 antialiased">
+    <div class="mx-auto w-full max-w-5xl">
+      <header class="border-b border-zinc-200/70 px-5 pt-3 pb-0 sm:px-8">
+        <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold tracking-tight">
+          <span class="grid h-5 w-5 place-items-center rounded-md bg-[#4ade80] text-white">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9" /></svg>
+          </span>
+          luma.
+        </a>
+      </header>
+
+      <section class="flex flex-col gap-3 border-b border-zinc-200/70 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <h1 class="text-2xl font-medium tracking-tight sm:text-[28px]">Find your next <span class="text-[#6b8f3a]">inspiration.</span></h1>
+        <form class="flex w-full items-center rounded-xl border border-zinc-200 bg-white py-1.5 pr-1.5 pl-3 sm:max-w-xl">
+          <svg class="mr-2 shrink-0 text-zinc-400" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+          <input type="search" placeholder="Search photos…" aria-label="Search photos" class="min-w-0 flex-1 bg-transparent text-xs outline-none placeholder:text-zinc-400" />
+          <button type="submit" class="rounded-lg bg-[#D9F583] px-3 py-2 text-[11px] font-medium text-zinc-800 transition-colors hover:bg-[#bef264] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600">Search ↗</button>
+        </form>
+      </section>
+    </div>
+    <div class="`bg-[<value>]`"></div>
+  </body>
+</html>
